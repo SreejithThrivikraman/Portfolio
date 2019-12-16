@@ -34,3 +34,24 @@ p.head
   margin: 30px;
   font-size: x-large
 }
+
+.navbar-brand h1{
+	font-size: 31px;
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.banner-two h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 56px;
+	color: #000000;
+	font-weight: 700;
+  margin-top: 5px;
+  
+  text-align: center;
+}
