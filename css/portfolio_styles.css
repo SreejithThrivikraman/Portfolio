@@ -55,3 +55,16 @@ p.head
   
   text-align: center;
 }
+
+#backGroundImage
+{
+  height: 100%;
+}
+
+#backGroundImage
+{
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-clip: cover;
+  -moz-background-clip: cover;
+  -moz-background-clip: cover;
+}
