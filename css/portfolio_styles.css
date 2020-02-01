@@ -14,20 +14,19 @@
 
 body
 {
-  background-color: #76dbd1;
+  background-image: url(../images/background.jpg);
 }
 
-h2.head
+h2.headTitle
 {
   text-align: center;
-
   font-family: 'Varela Round', sans-serif;
   font-weight: bolder;
   font-size: xx-large;
-  color: #555151;
+  color: white;
 }
 
-p.head
+p.headTitle
 {
   text-align: center;
   font-family: 'Varela Round', sans-serif;
@@ -52,19 +51,12 @@ p.head
 	color: #000000;
 	font-weight: 700;
   margin-top: 5px;
-  
   text-align: center;
 }
 
-#backGroundImage
-{
-  height: 100%;
-}
 
-#backGroundImage
+
+.nav-item
 {
-  background: url(images/background.jpg) no-repeat center center fixed;
-  -webkit-background-clip: cover;
-  -moz-background-clip: cover;
-  -moz-background-clip: cover;
+  font-size: 1.3rem;
 }
