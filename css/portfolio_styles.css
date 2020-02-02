@@ -10,11 +10,23 @@
   margin-top: 45px;
 }
 
+#landingPage
+{
+  background: url("https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg")no-repeat center center fixed;
+
+  
+}
+
+
 /* Style for body of home page */
 
-body
+.banner
 {
-  background-image: url(../images/background.jpg);
+  height: 100vh;
+  width: 100%;
+  background: url('../images/background.jpg')no-repeat center fixed ;
+  background-position:center;
+  background-size: cover;
 }
 
 h2.headTitle
@@ -26,13 +38,6 @@ h2.headTitle
   color: white;
 }
 
-p.headTitle
-{
-  text-align: center;
-  font-family: 'Varela Round', sans-serif;
-  margin: 30px;
-  font-size: x-large
-}
 
 .navbar-brand h1{
 	font-size: 31px;
@@ -48,15 +53,27 @@ p.headTitle
 .banner-two h1{
 	font-family: 'Poppins', sans-serif;
 	font-size: 56px;
-	color: #000000;
+	color: white;
 	font-weight: 700;
-  margin-top: 5px;
+  margin-top: 15px;
   text-align: center;
 }
 
-
-
 .nav-item
 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  padding: 0 5px;
 }
+
+
+
+.test
+{
+  padding: 120px;
+  /*  */
+  /* background-size: 1920px 1080px; */
+  background-repeat:no-repeat;
+  background-size:contain;
+  
+}
+
