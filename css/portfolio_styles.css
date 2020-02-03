@@ -10,13 +10,6 @@
   margin-top: 45px;
 }
 
-#landingPage
-{
-  background: url("https://miro.medium.com/max/1094/1*MCn1VrXQznTi3JMtAIGK0g.jpeg")no-repeat center center fixed;
-
-  
-}
-
 
 /* Style for body of home page */
 
@@ -24,7 +17,16 @@
 {
   height: 100vh;
   width: 100%;
-  background: url('../images/wallpaper.jpg')no-repeat center fixed ;
+  background: url('../images/background.jpg')no-repeat center fixed ;
+  background-position:center;
+  background-size: cover;
+}
+
+.banner_About_me
+{
+  height: 100vh;
+  width: 100%;
+  background: url('../images/mobile.dev.png')no-repeat center fixed ;
   background-position:center;
   background-size: cover;
 }
@@ -67,9 +69,9 @@ h2.headTitle
 
 
 
-.test
+.landingPage
 {
-  padding: 120px;
+  padding: 90px;
   /*  */
   /* background-size: 1920px 1080px; */
   background-repeat:no-repeat;
@@ -77,3 +79,12 @@ h2.headTitle
   
 }
 
+
+#buttons_landing_page
+{
+  display: flex;
+  justify-content: space-between;
+  max-width: 370px;
+  margin: 0 auto;
+  padding: 7px 0;
+}
