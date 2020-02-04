@@ -30,38 +30,39 @@
   <title>Sreejith Thrivikraman | Mobile & Web App Developer |</title>
 </head>
 
-<body >
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="container-fluid banner">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
       <a class="navbar-brand" href="#">
         <h1>Sreejith Thrivikraman</h1>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-collapse" aria-controls="header-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-collapse"
+        aria-controls="header-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="header-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link font-weight-bold" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">About me</a>
+            <a class="nav-link font-weight-bold" href="#Aboutme">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Portfolio</a>
+            <a class="nav-link font-weight-bold" href="#Portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Resume</a>
+            <a class="nav-link font-weight-bold" href="#Resume">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">Contact me</a>
+            <a class="nav-link font-weight-bold" href="#contactMe ">Contact me</a>
           </li>
         </ul>
       </div>
     </nav>
 
-  <!-- landing page --> 
-    <div class="landingPage">
+    <!-- landing page -->
+    <div id="home" class="landingPage">
       <div class="banner-two">
         <img id="profile_image" src="images/sreejith_image.gif" alt="Image Error !"><br>
         <div class="col-lg-12">
@@ -72,22 +73,47 @@
 
       <div id="button_landingPage" class="container text-center">
         <a href="./files/Sreejith_Resume.docx" download>
-        <button type="button" class="btn btn btn-success btn-lg " ><span class="fas fa-file-download"></span> Download Resume</button></a>
-        <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'https://www.linkedin.com/in/sreejiththrivikraman/';" ><span class="fab fa-linkedin-in"></span>  LinkedIn Profile</a></button>
+          <button type="button" class="btn btn btn-success btn-lg "><span class="fas fa-file-download"></span> Download
+            Resume</button></a>
+        <button type="button" class="btn btn-primary btn-lg"
+          onclick="window.location.href = 'https://www.linkedin.com/in/sreejiththrivikraman/';"><span
+            class="fab fa-linkedin-in"></span> LinkedIn Profile</a></button>
       </div>
-      
-
-
-
-
-      
     </div>
-  </div> 
- <!-- landing page -->
+  </div>
+  <!-- landing page -->
 
- <!-- About me  -->
-<div class="banner_About_me">
-</div>
- <!-- About me  -->
-</body >
+  <!-- About me  -->
+  <div id="Aboutme" class="banner_About_me">
+    <h2>Helooooo its Sreejith </h2>
+  </div>
+  <!-- About me  -->
+
+  <!-- Portfolio  -->
+  <div id="Portfolio" class="banner_portfolio">
+  </div>
+  <!-- Portfolio  -->
+
+  <!-- Resume  -->
+  <div id="Resume" class="banner_resume">
+  </div>
+  <!-- Resume  -->
+
+  <!-- contact me  -->
+  <div id="contactMe" class="banner_contact_me">
+  </div>
+  <!-- contact me  -->
+
+  <script src="JavaScript/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	  speed: 500,
+	  speedAsDuration: true
+});
+
+  </script>
+
+</body>
+
 </html>
