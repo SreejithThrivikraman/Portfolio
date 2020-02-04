@@ -67,24 +67,16 @@ h2.headTitle
   padding: 0 5px;
 }
 
-
-
 .landingPage
 {
   padding: 90px;
-  /*  */
-  /* background-size: 1920px 1080px; */
   background-repeat:no-repeat;
   background-size:contain;
-  
 }
 
-
-#buttons_landing_page
+#button_landingPage
 {
-  display: flex;
-  justify-content: space-between;
-  max-width: 370px;
-  margin: 0 auto;
-  padding: 7px 0;
+  padding: 15px
 }
+
+
