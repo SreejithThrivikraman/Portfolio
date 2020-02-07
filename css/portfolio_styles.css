@@ -2,8 +2,8 @@
 /* Home Page : Style for profile image */
 #profile_image
 {
-  max-width: 500px;
-  height: 200px;
+  width: 15%;
+  border-radius: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -108,4 +108,55 @@ h2.headTitle
   padding: 15px
 }
 
+/* footer styling */
+
+.row-footer {
+  text-align: center;
+}
+
+.footer-two {
+  background: black;
+  padding: 100px 0;
+  position: relative;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-social-two ul{
+	padding-left: 0;
+}
+
+.footer-social-two ul li{
+	display: inline-block;
+	padding: 0 4px;
+}
+
+.footer-social-two ul li a{
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	width: 36px;
+	height: 36px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding-top: 6px;
+	transition: all 0.3s;
+}
+
+.footer-social-two ul li a:hover{
+	background:#fff;
+	color: #212121;
+}
+
+.copyright-text p{
+  font-size: 16px;
+	color: #fff;
+	letter-spacing: 0.05em;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.copyright-text a {
+  color: #fff;
+}
 
