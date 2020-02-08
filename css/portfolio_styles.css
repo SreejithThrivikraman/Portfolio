@@ -203,7 +203,8 @@ h2.headTitle
   text-align: center;
 }
 
-.copyright-text a {
+.copyright-text a 
+{
   color: #fff;
 }
 

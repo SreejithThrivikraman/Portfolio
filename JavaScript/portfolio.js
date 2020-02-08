@@ -56,6 +56,7 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
+// test function
 function testMsg()
 {
   console.log("Button clicked !!");
