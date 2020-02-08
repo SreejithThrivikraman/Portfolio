@@ -90,11 +90,22 @@
 
 h2.headTitle
 {
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Varela Round', sans-serif;
   font-weight: bolder;
   font-size: xx-large;
   color: white;
+  display: inline-block;
+}
+
+.headTitle-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headTitle-child {
+  display: inline-block;
 }
 
 
