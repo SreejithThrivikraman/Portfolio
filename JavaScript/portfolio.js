@@ -1,4 +1,3 @@
-
 //made by vipul mirajkar thevipulm.appspot.com
 var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -56,7 +55,6 @@ window.onload = function() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
-
 
 function testMsg()
 {
