@@ -107,12 +107,19 @@ h2.headTitle
 
 
 
-.headTitle-animtion-child
+.headTitle-animtion-child-font-bold
 {
   display:inline;
- 
   font-family: 'Varela Round', sans-serif;
   font-weight: bolder;
+  font-size: xx-large;
+  color: white;
+}
+
+.headTitle-animtion-child-font-light
+{
+  display:inline;
+  font-family: 'Varela Round', sans-serif;
   font-size: xx-large;
   color: white;
 }
