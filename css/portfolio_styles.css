@@ -97,6 +97,24 @@ h2.headTitle
   color: white;
 }
 
+.headTitle-light-font
+{
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: xx-large;
+  color: white;
+}
+
+
+.headTitle-animtion-child
+{
+  display:inline;
+ 
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: white;
+}
 
 .navbar-brand h1{
 	font-size: 31px;
