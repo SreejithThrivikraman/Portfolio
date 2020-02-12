@@ -58,33 +58,32 @@
 
 .banner_contact_me
 {
-  height: 100vh;
+  height: 60vh;
   width: 100%;
-  background-color: #ECEFF1;
   background-position:center;
   background-size: cover;
+  background-color: #effcef;
 }
 
-.banner_contact_me h2{
+.contact-me-headder {
   text-align: center;
+  color: black;
   font-family: 'Varela Round', sans-serif;
   font-weight: bold;
-  padding: 3% 0 2%;
+  padding: 2%;
   
   }
 
 .contact-form-container {
-  
-  border-radius: 15%;
+  height: 50vh;
+  width: 100%;
   text-align: center;
-  background-color: #8d8f90 ;
-  padding: 3% ;
+  background-color: #effcef;
+ 
 }
 
-.contact-me-input {
-  text-align: center;
-  width: 100px;
-}
+
+
 
 /*  Contact me Page */
 
@@ -96,6 +95,8 @@ h2.headTitle
   font-size: xx-large;
   color: white;
 }
+
+
 
 .headTitle-light-font
 {

@@ -80,7 +80,7 @@
         <!-- <h2 class="headTitle">Mobile & Web App Developer</h2> -->
         <div style="text-align: center;">
           <h2 class=" headTitle-animtion-child-font-light"> Hi, I ❤️ to create </h2>
-          <h2 class="typewrite headTitle-animtion-child-font-bold" data-period="2000" data-type='[ "Mobile Apps. ", "Web Applications", "Java Applications."]'></h2>
+          <h2 class="typewrite headTitle-animtion-child-font-bold" data-period="2000" data-type='[ "Mobile Apps. ", "Web Apps. ", "Java Applications."]'></h2>
         </div>  
       </div>
 
@@ -114,43 +114,40 @@
 
   <!-- contact me  -->
   <div id="contactMe" class="banner_contact_me">
-    
-    <h2> <i class="fas fa-comments "></i>  Let's connect  <i class="fas fa-comments"></i></h2>
-    
-    <div class="container contact-form-container">
-      <form>
-        <div class="form-group row"> 
-          <div class="col-xs-4">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control contact-me-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name" required>
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-        </div>
-        
-          <div class="form-group row"> 
-            <div class="col-xs-4">
-              <label for="exampleInputPassword1">Email</label>
-              <input type="email" class="form-control contact-me-input" id="exampleInputPassword1" placeholder="Your email address">
+    <div class="container-fluid contact-form-container">
+     
+      <div class="contact-me-headder">
+        <h2> <i class="fas fa-comments "></i>  Let's connect  <i class="fas fa-comments"></i></h2>
+      </div>
+      
+      <div>
+        <form>
+          <div class="row">
+            <div class="form-group text-right col-xl-4 col-md-6">
+              <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
             </div>
-          </div> 
-          <div class="form-group row"> 
-              <div class="col-xs-4  ">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control contact-me-input" rows="5" id="comment"></textarea>
-              </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div> 
-        
-      </form>
-    </div>
-    
 
+          <div class="row">
+            <div class="form-group text-right col-xl-4 col-md-6">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="form-group text-right col-xl-4 col-md-6">
+              <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+            </div>
+        </div>
+        <button type="button" class="btn btn-dark btn-lg">Submit</button>
+
+        </form>
+      </div>
+      
+    </div>
   </div>
   <!-- contact me  -->
 
-
-  
   <!-- Footer -->
   <footer class="footer-two">
     <div class="container">
@@ -169,13 +166,8 @@
         </div>
       </div>
     </div>
-    
   </footer>
   <!-- Footer -->
-
-
-
-
 
   <script src="JavaScript/smooth-scroll.js"></script>
   <script>
