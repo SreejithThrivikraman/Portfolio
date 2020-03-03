@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.banner_portfolio
+.banner_skills
 {
   height: 110vh;
   width: 100%;
@@ -39,11 +39,11 @@
   background-size: cover;
 }
 
-.banner_resume
+.banner_skills
 {
   height: 50vh;
   width: 100%;
-  background: url('../images/resume.jpg')no-repeat center fixed ;
+  background-color: #f3f5f7;
   background-position:center;
   background-size: cover;
   
@@ -97,7 +97,6 @@ p.about-me-title
   letter-spacing: 0.04em;
   color: #5d5d5d;
   margin-right: 5px;
-
 }
 
 .about-me-image
@@ -108,7 +107,7 @@ p.about-me-title
 
 .about-me-description
 {
-  margin: 9% 5% 1% 0%;
+  margin: 9% 14% 1% 0%;
   text-align: justify  ;
   font-size: 18px;
 }
@@ -125,8 +124,6 @@ h2.headTitle
   color: white;
 }
 
-
-
 .headTitle-light-font
 {
   text-align: center;
@@ -134,8 +131,6 @@ h2.headTitle
   font-size: xx-large;
   color: white;
 }
-
-
 
 .headTitle-animtion-child-font-bold
 {
@@ -192,7 +187,6 @@ h2.headTitle
   margin-top: 4%;
   margin-bottom: 12%;
   text-align: center;
-  
 }
 
 @media only screen and (max-width: 768px)
@@ -207,6 +201,19 @@ h2.headTitle
       text-align: center;
     }
 }
+
+ /* Skills page */
+ h2.skills-title
+ {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size : 35px;
+  letter-spacing: 0.9px;
+  padding-top: 51.59px;
+ }
+  /* Skills page */
+
+
 
 /* footer styling */
 
