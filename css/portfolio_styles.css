@@ -10,14 +10,11 @@
   margin-top: 45px;
 }
 
-
-
 /* Style for body of home page */
 
 .banner
 {
-  height: 100vh;
-  width: 100%;
+   
   background: url('../images/background.jpg')no-repeat center fixed ;
   background-position:center;
   background-size: cover;
@@ -25,20 +22,19 @@
 
 .banner_About_me
 {
-  height: 50vh;
-  width: 100%;
-  background: url('../images/mobile.dev.png')no-repeat center fixed ;
+ 
+  margin-bottom: 5%;
   background-position:center;
   background-size: cover;
-  color: white;
+  background-color: white;
   text-align: center;
 }
 
 .banner_portfolio
 {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
-  background: url('../images/city.jpeg')no-repeat center fixed ;
+  background-color: #eeeeee;
   background-position:center;
   background-size: cover;
 }
@@ -53,8 +49,6 @@
   
 }
 
-
-
 /*  Contact me Page */
 
 .banner_contact_me
@@ -63,7 +57,7 @@
   width: 100%;
   background-position:center;
   background-size: cover;
-  background-color: #effcef;
+  background-color: #eeeeee;
 }
 
 .contact-me-headder {
@@ -79,14 +73,48 @@
   height: 50vh;
   width: 100%;
   text-align: center;
-  background-color: #effcef;
+  /* background-color: #effcef; */
  
 }
 
-
-
-
 /*  Contact me Page */
+
+/*  About me Page */
+
+h2.about-me-title
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size : 35px;
+  letter-spacing: 0.9px;
+  margin-top: 5%; 
+}
+
+p.about-me-title
+{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  color: #5d5d5d;
+  margin-right: 5px;
+
+}
+
+.about-me-image
+{
+  margin: 2% 10% 10% 20%;
+  border-radius: 25%;;
+}
+
+.about-me-description
+{
+  margin: 9% 5% 1% 0%;
+  text-align: justify  ;
+  font-size: 18px;
+}
+
+
+/*  About me Page */
 
 h2.headTitle
 {
@@ -161,7 +189,23 @@ h2.headTitle
 
 #button_landingPage
 {
-  padding: 15px
+  margin-top: 4%;
+  margin-bottom: 12%;
+  text-align: center;
+  
+}
+
+@media only screen and (max-width: 768px)
+{
+    #button_landingPage
+    {
+      text-align: center;
+    }
+
+    #headName
+    {
+      text-align: center;
+    }
 }
 
 /* footer styling */
